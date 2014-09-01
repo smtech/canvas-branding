@@ -169,13 +169,13 @@ border-radius: 0px 0px 12px 12px !important;
 top: 133px;;
 }
 /*resize the border or font weight of the login fields*/
-input{
+#f1_container #login_form .face input{
 background: #f3f3f3;
 border-radius: 5px;
 font-weight: normal;
 }
 /*adjust the border, color, or shadow of the login button*/
-button[type=submit]{
+#f1_container #login_form .face button[type=submit]{
 border: none;
 color: #fff;
 text-shadow: 0 -1px 0 #36629b;
