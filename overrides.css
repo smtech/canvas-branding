@@ -106,7 +106,7 @@ you should move a (smaller) Cavas logo to the right side of the header'*/
 body.modal #modal-box.login-box h1 { 
 	margin-top: 170px !important;
 	margin-bottom: 0px !important;
-	margin-left: 50px !important;
+	margin-left: 44px !important;
 	background-position: 0px 45px !important;
 }
 
@@ -153,27 +153,20 @@ body.modal #modal-box.login-box a { color: black !important; }
  ***********************************************************************/
  
 
-/*background image*/
-body{
-background: rgb(216, 216, 208);
-}
 /*institution logo*/
 #f1_container{
 background: url(mobile/logo.png) no-repeat center top;
 background-size: 100% auto;
-width: 100%;
+width: 302px;
 }
 #f1_container #login_form {
 	color: black;
 }
 /*dialog background*/
 .face{
-background: transparent;
-/*resize the border or shadow of the login page*/
-border-radius: 0px;
-box-shadow: 0px 0px 0px transparent;
-padding-top: 50px;
-padding-left: 25px;
+background: rgb(216,216,208);
+border-radius: 0px 0px 12px 12px !important;
+top: 133px;;
 }
 /*resize the border or font weight of the login fields*/
 input{
