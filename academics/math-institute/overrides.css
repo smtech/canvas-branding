@@ -1,9 +1,3 @@
-/* replace the aqua green background with something that matches your color scheme.*/
-#header {
-  /*you can use .pngs with alpha transparency since you dont have to worry about IE6*/
-  background: url("../../header-background.jpg?v1") repeat-x scroll left center transparent;
-}
-
 /*replace the "Canvas" logo with your school's*/
 #header-logo, #header.no-user #header-logo {
   background: url("header-account-logo.png?v1") no-repeat scroll 0 0 transparent;
@@ -11,7 +5,9 @@
   height: 70px;
   left: 0px;
   width: 250px;
+  top: 0px;
 }
+
 /* if you are going to replace the Canvas logo on the top left with your school's, 
 you should move a (smaller) Cavas logo to the right side of the header'*/
 #header-logo-secondary {
