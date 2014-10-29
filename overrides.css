@@ -198,11 +198,11 @@ color: #888;
 
 /***********************************************************************
  *                                                                     *
- * Striped table rows (by hand)                                        *
+ * Striped table rows                                                  *
  *                                                                     *
  ***********************************************************************/
 
-table.striped tr.stripe {
+table.striped tr:nth-child(even) {
 	background: #d6ecfc; /* match sidebar highlights */
 }
 
