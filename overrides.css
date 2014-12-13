@@ -4,24 +4,6 @@
  *                                                                     *
  ***********************************************************************/
  
-/* module text indents are borked */
-.context_module_item.indent_1 .item_name {
-	padding-left: 26px;
-}
-
-.context_module_item.indent_2 .item_name {
-	padding-left: 52px;
-}
-
-.context_module_item.indent_3 .item_name {
-	padding-left: 78px;
-}
-
-/* module text headers are indented at different levels than other items */
-.context_module_item .module_item_icons .type_icon {
-	padding-right: 0;
-}
-
 /* why can't we see all the enrollments and accounts at once? 200px scrolling window, my fanny! */
 #courses_list .courses ul, .accounts ul {
 	max-height: none !important;
