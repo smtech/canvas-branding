@@ -44,3 +44,28 @@ you should move a (smaller) Cavas logo to the right side of the header'*/
 #identity a { color: #fff; }
 #identity #feedback_link{ border-color: #333; background-color: #333; }
 #identity .inbox a .unread-messages-count { background-color: #333; }
+
+/* custom formatting for the library wiki pages */
+
+table.libraryListing {
+	width: 100%;
+	border: none 0px;
+	border-spacing: 0px;
+}
+
+table.library-listing td, table.library-listing th {
+	border-top: 1px solid #003359;
+	padding: 1em;
+	border-left: 0px;
+	border-right: 0px;
+	
+}
+
+table.library-listing th {
+	text-align: left;s
+}
+
+table.library-listing tr:first-child td, table.library-listing tr:first-child th{
+	border-top: 0px none;
+}
+
