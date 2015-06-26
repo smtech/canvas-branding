@@ -102,6 +102,8 @@ color: black;
 /* messagea above login form */
 #login_form:before {
 	content: 'Log in with your full email address';
+	text-align: left;
+	white-space: nowrap;
 }
 
 #login_form {
