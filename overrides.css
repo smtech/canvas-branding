@@ -1,3 +1,8 @@
+/*
+ * St. Mark's WWW blue #003359 / beige #cfcfc5
+ * http://paletton.com/#uid=71T0u0k1zpZ06P70Hv-2Slf57gR
+ */
+
 /***********************************************************************
  *                                                                     *
  * BUG FIXES FOR CANVAS INTERFACE                                      *
@@ -69,11 +74,18 @@ you should move a (smaller) Cavas logo to the right side of the header'*/
 .menu-item.hover .menu-item-title { color: #555555; }
 
 /*style the #identity (the thing that says "Ryan Shaw | inbox | profile | logout | (feedback)" in top right) */
-#identity { background-color: #981E32; }
-#identity .user_name a{ color: #DC8894 !important; }
-#identity a { color: #fff; }
-#identity #feedback_link{ border-color: #333; background-color: #333; }
-#identity .inbox a .unread-messages-count { background-color: #333; }
+#identity { background-color: #6C5A64; }
+#identity .user_name a { color: #ECECEC !important; }
+#identity .user_name a .emphasize-name { color: #ff5f5f !important; }
+#identity a { color: #CAC5C8; }
+#identity #feedback_link {
+	background-color: #ff5f5f;
+	color: #ECECEC;
+}
+#identity .inbox a .unread-messages-count {
+	background-color: #ff5f5f;
+	color: #ECECEC;
+}
 
 
 /***********************************************************************
