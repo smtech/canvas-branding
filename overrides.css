@@ -26,6 +26,24 @@
 
 /***********************************************************************
  *                                                                     *
+ * DISABLE PRINTING FACULTY JOURNAL                                    *
+ *                                                                     *
+ ***********************************************************************/
+
+@media print {
+	#user_note_list::before {
+		content: "Please do not print confidential comments.";
+		font-size: 24pt;
+	}
+	
+	#user_note_list .user_note {
+		visibility: hidden;
+		height: 0;
+	}
+}
+
+/***********************************************************************
+ *                                                                     *
  * GLOBAL MENU BAR                                                     *
  *                                                                     *
  ***********************************************************************/
