@@ -2,6 +2,6 @@
 
 Apply St. Mark's branding to our Canvas instance.
 
-## Known Issues
+### Obsolete
 
-The issues tracking hasn't yet been pulled over to this repo and still lives in [our original Canvas repo](https://github.com/smtech/canvas/issues?milestone=10)
+This repository is in the process of being abandoned, in favor of more modular customization via [CanvasHack](https://github.com/smtech/canvashack).
